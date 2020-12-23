@@ -14,7 +14,7 @@ const app = express();
 const port = 3000;
 
 // connect to mongodb
-const dbURI = 'mongodb+srv://netninja:test1234@cluster0.qsqhp.mongodb.net/node-tuts?retryWrites=true&w=majority';
+const dbURI = 'YourDBName';
 mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
   .then((result) => {
     console.log('Connected to db');
